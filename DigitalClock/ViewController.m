@@ -241,6 +241,9 @@
     [_label setTextColor:UIColor.whiteColor];
     _imageView.image = nil;
     [self.view setBackgroundColor:UIColor.blackColor];
+    [_segmentedControlClock setSelectedSegmentIndex:0];
+    [_segmentedControlBackgroundColour setSelectedSegmentIndex:1];
+    [_segmentedControlBackgroundImage setSelectedSegmentIndex:UISegmentedControlNoSegment];
 }
 
 @end
